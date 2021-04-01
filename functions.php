@@ -1,6 +1,6 @@
 <?php
     include 'config.php';
-    https://api.fortnitetracker.com/v1/profile/{platform}/{epic-nickname}
+    //https://api.fortnitetracker.com/v1/profile/{platform}/{epic-nickname}
     function getPlayerStats($plataform, $region, $epic){
         $apiUrlPlayerStatsEndpoint = 'https://api.fortnitetracker.com/v1/profile/' . $plataform . '/' . $epic;
         $ch = curl_init();
