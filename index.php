@@ -1,8 +1,8 @@
 <?php
     include 'functions.php';
-        $plataform = 'pc';
-        $region = 'NAE';
-        $epic = 'Ninja';
+        $plataform = 'Insert the platform';
+        $region = 'Enter region';
+        $epic = 'Enter username';
         $playerStats = getPlayerStats($plataform, $region, $epic);
         /*echo '<pre>';
         print_r($playerStats);
